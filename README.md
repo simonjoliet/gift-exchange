@@ -3,7 +3,7 @@ This code performs a gift exchange shuffle within a family while taking into acc
 
 # Inputs
 * persons.json: a JSON file containing a list of all individuals participating in the gift exchange and a dictionary of couples (optional)
-* history.csv: a CSV file containing the gift exchange history for previous years (optional)
+* history.csv: a CSV file containing the gift exchange history for previous years
 
 # Outputs
 gift_exchange.csv: a CSV file containing the gift exchange history for all years
