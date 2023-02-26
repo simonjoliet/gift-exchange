@@ -1,0 +1,22 @@
+{
+    "couples": {
+        "Jack": "Emma",
+        "Ethan": "Sophia",
+        "Madison": "Harper",
+        "Avery": "Lucas",
+        "Daniel": "Abigail"
+    },
+    "persons": [
+        "Jack",
+        "Emma",
+        "Ethan",
+        "Sophia",
+        "Noah",
+        "Madison",
+        "Harper",
+        "Avery",
+        "Lucas",
+        "Daniel",
+        "Abigail"
+    ]
+}
