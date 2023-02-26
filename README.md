@@ -39,28 +39,3 @@ This constant variable determines the number of years to run the gift exchange p
 
 `MAX_GIFT_HISTORY_YEARS`
 This constant variable determines the maximum number of years a person cannot receive a gift from the same giver.
-
-`persons.json`
-{
-    "persons": ["person1", "person2", "person3", ...],
-    "couples": {
-        "person1": "person2",
-        "person3": "person4",
-        ...
-    }
-}
-
-`history.csv`
-
-Year,Giver,Receiver
-2015,person1,person3
-2015,person2,person1
-2016,person3,person2
-...
-
-`gift_exchange.csv`
-
-,person1,person2,person3,person4,...
-2015,person3,person1,person4,person2,...
-2016,person2,person4,person1,person3,...
-...
