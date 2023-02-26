@@ -5,15 +5,15 @@ This code performs a gift exchange shuffle within a family while taking into acc
 * persons.json: a JSON file containing a list of all individuals participating in the gift exchange and a dictionary of couples (optional)
 * history.csv: a CSV file containing the gift exchange history for previous years (optional)
 
-#Outputs
+# Outputs
 gift_exchange.csv: a CSV file containing the gift exchange history for all years
 
-#How to Use
+# How to Use
 1. Ensure that persons.json and history.csv files are in the data folder in the same directory as the Python code.
 2. Run the Python code.
 3. The program will create a gift_exchange.csv file in the data folder containing the gift exchange history for all years.
 
-#Program Overview
+# Program Overview
 1. Load the list of individuals participating in the gift exchange and couples dictionary from the persons.json file.
 2. Load the gift exchange history from the history.csv file.
 3. Run the gift exchange program for 30 years, with a maximum gift history of 7 years.
