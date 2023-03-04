@@ -59,11 +59,9 @@ reverse = {v: k for k, v in couples.items()}
 couples.update(reverse)
 
 for _ in range(1,YEARS_ROLL):
-    
-    shuffle = run_gift_exchange(persons, couples, history)
 
-    while shuffle == 0:
-        shuffle = run_gift_exchange(persons, couples, history)
+    while (shuffle := run_gift_exchange(persons, couples, history)) == 0:
+        pass
 
     history[max(history.keys()) + 1] = shuffle
 
@@ -71,4 +69,3 @@ try:
     pd.DataFrame(history).T.to_csv('gift_exchange.csv')
 except Exception as e:
     print(f"Failed to save history to file: {e}")
-
